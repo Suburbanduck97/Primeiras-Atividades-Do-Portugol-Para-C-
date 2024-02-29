@@ -1,15 +1,16 @@
 #include <stdio.h>
 
+//Declarando Constantes
 #define texto "Insira os dados abaixo da forma (INTEIRO)."
 #define exibicao "Exibindo Dados Inseridos: "
 
 int main(){
-	//Declarando vari·veis
+	//Declarando vari√°veis
 	int numeroA = 0, numeroB = 0, numeroC = 0 , soma = 0;
 	printf("%s\n", texto);
 	printf("\nINSIRA UM VALOR: ");
 	scanf("%d",&numeroA);
-	
+	//Solicitando dados
 	printf("INSIRA UM SEGUNDO VALOR: ");
 	scanf("%d",&numeroB);
 	
@@ -17,7 +18,7 @@ int main(){
 	scanf("%d",&numeroC);
 	system("cls");
 	
-	//c·lculo do sistema
+	//c√°lculo do sistema
 	soma = numeroA + numeroB;
 	//Exibindo dados
 	printf("%s\n", exibicao);
